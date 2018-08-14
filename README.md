@@ -6,13 +6,17 @@ step 1 : Clone or download project.
 step 2 : Go to project folder using terminal/cmd.
 (this project contains 2 parts music search app and access token genrator part)
 step 3 : In project folder (Music-app-master/) using terminal and install node modules.(installing music app node modules)
+
          npm install 
          
-step 4 : after node modules installed music app, start music search app in folder location Music-app-master/ enter terminal/cmd bellow code and enter. 
+step 4 : after node modules installed music app, start music search app in folder location Music-app-master/ enter terminal/cmd bellow code and enter.
+
+
          npm start
 (now Music app part will start and listening on http://localhost:3000/)
 
 step 5 :Now open new terminal/cmd, go to folder Music-app-master/get_authentication_token/ using terminal and install node modules.(installing access token generator app node modules)
+
          npm install
 
 step 6 : after that go to folder location Music-app-master/get_authentication_token/authorization_code using terminal/cmd enter bellow code and enter.
