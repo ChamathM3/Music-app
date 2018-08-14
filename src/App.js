@@ -139,6 +139,7 @@ class App extends Component {
   searchItems() {
     if (this.state.searchValue !== "") {
       var accessToken = window.location.search.split('token=')[1];
+      this.setState({ artists: [], tracks: [] });
       let token = accessToken;//"BQCcyp7kbijcKKJq8VY1wThsjCMwXwE6bN083VmjqtlKmt1eAk8JfkFYdxqguRr-6QCy8tjQGgcIQL0NIE9hMl4X95yN-_EunQr2oPsEZaWiTxggoxZu0ICQFudrAcCU4NQS316kI4FJS0G2IbakK4au76S8LkjBqKWgnIieP92m6W4UPg";
       axios.get('https://api.spotify.com/v1/search?q=' + this.state.searchValue + '&type=track%2Cartist&limit=10', {
         headers: {
