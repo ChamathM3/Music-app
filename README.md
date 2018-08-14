@@ -31,13 +31,13 @@ This Music-app congiured to my sample spotify application. if you want to config
 
 # Technologies used in this project
 
-ReactJS
+ReactJS :
 React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”. since this library is components based development can done easy and much effectively. since this is javascript library easily integrate other apis.
 
-Axios
+Axios :
 Axios is promise-based and thus we can take advantage of async and await for more readable asynchronous code. We can also intercept and cancel requests, and there’s built-in client side protection against cross site request forgery.This api is easy to use.
 
-Spotify web API 
+Spotify web API : 
 This web API provide JSON metadata about music artists, albums, and tracks, directly from the Spotify Data Catalogue. there for using bootstrap we can convert this application use for many devices like mobile phones , destop PC, tabs ,etc..
 
 
@@ -53,7 +53,7 @@ This web API provide JSON metadata about music artists, albums, and tracks, dire
 
  In this current version all the data server side part integrate to spotify web API. But we can develop this app for get user favorite artist, tracks like wise. for that can integrate google analytics and seperate databases.
  
-Future developments of this Music-app
+# Future developments of this Music-app
 
  As a future development palaning to convert this app work for voice command, integrate chat APIs to undestand user input and get most suatable songs for there mood. Also add this API working with chatbots.
 
