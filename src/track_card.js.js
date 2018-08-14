@@ -51,7 +51,7 @@ class TrackCard extends Component {
     return (
       <div className="col-md-3 col-lg-3 col-xs-12 col-sm-6" >
         <div style={{ width: "99%", backgroundColor: "#9d9d9d3b", height: "380px", color: "white", marginBottom: "10px" }}>
-          <img src={(this.state.imageSet) ? this.props.image.url : ""} style={{ width: "213px", height: "213px" }} alt="artist" />
+          <img src={(this.state.imageSet && typeof (this.props.image.url) !== "undefined") ? this.props.image.url : ""} style={{ width: "213px", height: "213px" }} alt="artist" />
           <p><span style={{ fontWeight: "700" }}>Track Name :</span> {this.state.name}</p>
           <p><span style={{ fontWeight: "700" }}>Artist Name :</span> {this.state.artist}</p>
           <p><span style={{ fontWeight: "700" }}>Album :</span> {this.state.albumName}</p>
