@@ -9,7 +9,7 @@ How to setup
 
          npm install 
          
-# step 4 : After node modules installed music app, start music search app in folder location Music-app-master/ enter terminal/cmd bellow code and enter.
+# step 4 : After node modules installed in music app, start music search app in folder location Music-app-master/, enter terminal/cmd bellow code and press enter.
 
 
          npm start
@@ -19,7 +19,7 @@ How to setup
 
          npm install
 
-# step 6 : After that go to folder location Music-app-master/get_authentication_token/authorization_code using terminal/cmd enter bellow code and enter.
+# step 6 : After that go to folder location Music-app-master/get_authentication_token/authorization_code using terminal/cmd enter bellow code and press enter.
           
           node app.js
 (now access token generator will start and lisening on http://localhost:8888/)
